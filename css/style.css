@@ -1,0 +1,48 @@
+#goods {
+    padding: 150px;
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.goods {
+    opacity: 0.5;
+    background:rgb(36, 36, 36);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 25px 25px;
+    justify-content: space-around;
+    color: rgb(227, 230, 233);
+}
+
+.goods:hover {
+    transition: 1s;
+    opacity: 1;
+}
+
+.goods h1 , .goods p {
+    margin: 15px 0;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.goods p {
+    line-height: 25px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.goods ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    max-width: 400px;
+}
